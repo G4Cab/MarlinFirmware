@@ -7,5 +7,5 @@ official sources at:<br>
 https://github.com/MarlinFirmware/Marlin<br>
 <br>
 If you want to honor my work, please:<br>
-<a href="paypal.me/MartinLoewe"><img src="https://www.golf-4-cab.de/buymeacoffee.png"></a>
+<a href="https://paypal.me/MartinLoewe"><img src="https://www.golf-4-cab.de/buymeacoffee.png"></a>
 <br>
