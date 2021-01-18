@@ -779,9 +779,9 @@
  *   M204 R    Retract Acceleration
  *   M204 T    Travel Acceleration
  */
-#define DEFAULT_ACCELERATION          1700    //MLoewe X, Y, Z and E acceleration for printing moves
-#define DEFAULT_RETRACT_ACCELERATION  1500    //MLoewe E acceleration for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   2200    //MLoewe X, Y, Z acceleration for travel (non printing) moves
+#define DEFAULT_ACCELERATION          900    //MLoewe X, Y, Z and E acceleration for printing moves
+#define DEFAULT_RETRACT_ACCELERATION  1300    //MLoewe E acceleration for retracts
+#define DEFAULT_TRAVEL_ACCELERATION   1000    //MLoewe X, Y, Z acceleration for travel (non printing) moves
 
 /**
  * Default Jerk limits (mm/s)
@@ -793,8 +793,8 @@
  */
 #define CLASSIC_JERK //MLoewe
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK 20.0 //MLoewe
-  #define DEFAULT_YJERK 20.0 //MLoewe
+  #define DEFAULT_XJERK 10.0 //MLoewe
+  #define DEFAULT_YJERK 10.0 //MLoewe
   #define DEFAULT_ZJERK  0.3
 
   //#define TRAVEL_EXTRA_XYJERK 0.0     // Additional jerk allowance for all travel moves
@@ -805,7 +805,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    1.5  //MLoewe May be used by Linear Advance
+#define DEFAULT_EJERK    5.0  //MLoewe May be used by Linear Advance
 
 /**
  * Junction Deviation Factor
