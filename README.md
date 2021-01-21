@@ -1,4 +1,5 @@
-Marlin builds for stock hardware.<br>
+Marlin builds for stock printer hardware.<br>
+Select your printer within the branches<br>
 <br>
 I DON'T TAKE ANY RESPONIBILTY FOR DAMAGES ON YOUR HARDWARE<br>
 ALL USAGE IS AT YOUR OWN RISKS!<br>
