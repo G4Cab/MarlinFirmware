@@ -1,3 +1,6 @@
+TwoTrees SapphirePro Firmware<br>
+with Robin Nano v1.x and TMC2208 on X + Y and A4988 on Z + E<br>
+<br>
 Marlin builds for stock hardware.<br>
 <br>
 I DON'T TAKE ANY RESPONIBILTY FOR DAMAGES ON YOUR HARDWARE<br>
