@@ -35,7 +35,6 @@
 //===========================================================================
 //============================= Thermal Settings ============================
 //===========================================================================
-
 // @section temperature
 
 /**
@@ -576,7 +575,7 @@
 //
 #if SapphirePlusVariant == 1 or SapphirePlusVariant == 3   //MLoewe
 #define NUM_Z_STEPPER_DRIVERS 1    //MLoewe (1-4) Z options change based on how many
-#if SapphirePlusVariant == 2 or SapphirePlusVariant == 4 or SapphirePlusVariant == 5 or SapphirePlusVariant == 6   //MLoewe
+#if SapphirePlusVariant == 2 or SapphirePlusVariant == 4 or SapphirePlusVariant == 5 or SapphirePlusVariant == 6 or SapphirePlusVariant == 7  //MLoewe
 #define NUM_Z_STEPPER_DRIVERS 2    //MLoewe (1-4) Z options change based on how many
 #endif //MLoewe
 
@@ -586,7 +585,7 @@
   //#define INVERT_Z3_VS_Z_DIR
   //#define INVERT_Z4_VS_Z_DIR
 
-#if SapphirePlusVariant == 2 or SapphirePlusVariant == 5 or SapphirePlusVariant == 6   //MLoewe
+#if SapphirePlusVariant == 2 or SapphirePlusVariant == 5 or SapphirePlusVariant == 6 or SapphirePlusVariant == 7  //MLoewe
   #define Z_MULTI_ENDSTOPS
 #endif
   #if ENABLED(Z_MULTI_ENDSTOPS)
