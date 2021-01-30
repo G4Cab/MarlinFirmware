@@ -5,6 +5,7 @@ Variant3: X tmc2208, Y tmx2208, E tmc2208, single Z tmc2208, 1 Z endstop<br>
 Variant4: X tmc2208, Y tmx2208, E tmc2208, dual Z tmc2208, 1 Z endstop<br>
 Variant5: X tmc2208, Y tmx2208, E tmc2208, dual Z tmc2208, 2 Z endstops<br>
 Variant6: X tmc2208, Y tmx2208, E tmc2208, dual Z a4988, 2 Z endstops<br>
+Variant7: X tmc2209, Y tmx2209, E tmc2209, dual Z tmc2225, 2 Z endstops<br>
 <br>
 Marlin builds for stock hardware.<br>
 <br>
